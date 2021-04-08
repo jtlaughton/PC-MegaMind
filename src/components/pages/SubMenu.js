@@ -3,7 +3,7 @@ import { IoMdHeartEmpty } from 'react-icons/io';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
-const SideBarLink = styled(Link)`
+const SideBarDiv = styled.div`
     display: flex;
     color: #e1e9fc;
     justify-content: space-between;
@@ -67,7 +67,7 @@ export const SubMenu = ({item}) => {
        
     return (
         <>
-            <SideBarLink to={item.path} onClick={item.subNav && showSubNav}>
+            <SideBarDiv onClick={item.subNav && showSubNav}>
                 <div>
                     {item.icon}
                     <SideBarLabel>
@@ -81,7 +81,7 @@ export const SubMenu = ({item}) => {
                     ? item.iconClosed 
                     : null}
                 </div>
-            </SideBarLink>
+            </SideBarDiv>
             {subnav && item.subNav.map((item_sub, index) => {
                 return (<DropDownLink to={item_sub.path} key={index}>
                     {item_sub.icon}
