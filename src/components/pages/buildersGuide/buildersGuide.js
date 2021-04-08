@@ -36,16 +36,16 @@ return (
             <h1 >Overview</h1>
             <p>A PC contains the following components:</p>
             <Row>
-              <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>CPU: Description Here</p>
-              </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
-              <Link to="/cpu_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
-              </Link>
-              </Col>
+                <Col xs sm md lg xl={{ span: 4, offset: 1}}>
+                  <p >CPU: Description Here</p>
+                </Col>
+                <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+                <Link to="/cpu_buildersGuide">
+                  <button>
+                    <span>Learn More</span>
+                  </button>
+                </Link>
+                </Col>
             </Row>
 
             <Row>

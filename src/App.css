@@ -31,6 +31,7 @@
 }
 
 .homeHeader {
+  padding-top: 10%;
   color:black;
   font-size: 50px;
   text-align: center;
@@ -45,11 +46,13 @@
   color:black;
   font-size: 50px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .homeButton {
-  margin: auto;
-  margin-left: 45%;
+  margin-left: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .backButton {
@@ -76,7 +79,7 @@
 {
   text-align: center;
   color: black;
-  background-color: #5cbedb;
+  background-color: #burlywood;
   /* align-content: left; */
   /* margin-left: 10%; */
   width: 100%;
@@ -87,7 +90,7 @@
 {
   text-align: center;
   color: black;
-  background-color: #5cbedb;
+  background-color:burlywood;
   /* align-content: left; */
   /* margin-left: 10%; */
   width: 100%;
@@ -115,6 +118,19 @@
   transform: translate(400px);
   background-color: gray;
   color:white;
+}
+
+.borders{
+  border: solid grey;
+  padding-bottom: 20px;
+}
+
+.cart-link{
+  color: #595959;
+}
+
+.cart-link:hover{
+  color: #595959;
 }
 
 
