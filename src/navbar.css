@@ -1,5 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background-color: #5CBED8;
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   height: 80px;
   display: flex;
   justify-content: center;
@@ -44,8 +45,13 @@
   padding: 0.5rem 1rem;
 }
 
+.nav-logo{
+  width: 5px;
+  height: 5px;
+}
+
 .nav-links:hover {
-  background-color: #1888ff;
+  background-color: #2CADD4;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -143,4 +149,9 @@
   button {
     display: none;
   }
+
+  .resize {
+    width: 300px;
+    height: auto;
+}
 }
