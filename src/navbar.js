@@ -13,9 +13,6 @@ function navbar() {
       PC Megamind
       <img className="resize"  src={pic1}  alt="logo" width="50" height="50"/>
       </h1>
-
-      
-
         <li className='nav-item'>
           <Link to='/' className='nav-links'> 
             Home

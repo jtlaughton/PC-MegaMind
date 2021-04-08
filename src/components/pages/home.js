@@ -1,11 +1,11 @@
- 
 import React from 'react';
 import '../../App.css';
+import { Link } from 'react-router-dom';
 
 //functions
-function clickMe(){
-  alert('clicked');
-}
+// function clickMe(){
+//   alert('clicked');
+// }
 
 export default function home() {
 return (
@@ -18,11 +18,13 @@ return (
         <p>A site for beginners in building a PC.</p>
       </div>
       <div >
-        <button className='homeButton' onClick={clickMe}>
-          Ready to begin? Click here and jump in!
-        </button>
+        <Link to="/buildersGuide">
+          <button className='homeButton'>
+            <span>Ready to begin? Click here and jump in!</span>
+          </button>
+        </Link>
       </div>
-      
+
     </div>
   </>
 );

@@ -4,7 +4,7 @@ import '../../App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SubMenu from './buildersGuideMenu';
+import SideBar from './SideBarSuggested';
 //import SubMenu from '../../buildersGuideMenu';
 
 
@@ -13,11 +13,10 @@ export default function suggestedBuilds() {
 return (
   <>
     <div className='pages'>
-    <h1 className='buildersHeader'>Builder Guide</h1>
     <Container className='sidebar_BG'>
       <Row className="sidebar_row" xs sm md lg xl={1}>
-        <Col xs sm md lg xl={{ span: 1, offset: 1}}>
-          <SubMenu/>  
+        <Col xs sm md lg xl={{ span: 2, offset: 0}}>
+          <SideBar></SideBar>
         </Col> 
         <Col>
           <div>
