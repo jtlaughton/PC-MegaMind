@@ -11,7 +11,11 @@ export default function home() {
 return (
   <>
     <div className='home'>
-      <div>
+      <div className='jumbotron' >
+        Welcome to PC MegaMind
+
+
+{/*         
         <h1 className='homeHeader'>Welcome to PC MegaMind</h1>
       </div>
       <div className='homeParagraph1'>
@@ -22,7 +26,7 @@ return (
           <button className='homeButton'>
             <span>Ready to begin? Click here and jump in!</span>
           </button>
-        </Link>
+        </Link> */}
       </div>
 
     </div>

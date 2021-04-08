@@ -1,0 +1,28 @@
+.cart_container{
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    align-items: center;
+    background-color: white; 
+}
+
+.cart_wrapper {
+    display: grid;
+    grid-template-columns:100px 1fr;
+    grid-template-rows: 35px 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: #181c21;
+}
+
+.cart_label { 
+    grid-area: 1 / 1 / span 1 / span 1; 
+}
+
+.cart_image { 
+    grid-area: 1 / 2 / span 1 / span 1; 
+}
+.cart_total { 
+    grid-area: 2 / 1 / span 2 / span 1; 
+}
+

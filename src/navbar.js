@@ -8,13 +8,14 @@ function navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar navbar-default navbar-static-top'>
+      <div class="container">
       <h1 >
       PC Megamind
       <img className="resize"  src={pic1}  alt="logo" width="50" height="50"/>
       </h1>
         <li className='nav-item'>
-          <Link to='/' className='nav-links'> 
+          <Link to='/' className='nav-links'>
             Home
           </Link>
         </li>
@@ -34,7 +35,7 @@ function navbar() {
             Shop
           </Link>
         </li>
-
+        </div>
       </nav>
   </>
 );

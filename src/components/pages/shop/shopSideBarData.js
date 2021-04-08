@@ -5,62 +5,54 @@ import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
 
 export const SideBarData = [
-    
-    {
-        title: 'Overview',
-        path: '/buildersGuide',
-    },
-    {
-        title: 'Suggested Builds',
-        path: '/suggestedBuilds',
-    },
+
+
     {
         title: 'Part Selection',
-        path: null,
+        path: '/shop',
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
             {
                 title: 'CPU',
-                path: '/cpu_buildersGuide',
+                path: '/cpu_news',
             },
             {
                 title: 'CPU Cooler',
-                path: '/cpuCooler_buildersGuide',
+                path: '/cpuCooler_news',
             },
             {
                 title: 'Motherboard',
-                path: '/motherboard_buildersGuide',
+                path: '/motherboard_news',
             },
             {
                 title: 'Memory',
-                path: '/memory_buildersGuide',
+                path: '/memory_news',
             },
             {
                 title: 'Storage',
-                path: '/storage_buildersGuide',
+                path: '/storage_news',
             },
             {
                 title: 'Video Card',
-                path: '/videoCard_buildersGuide',
+                path: '/videoCard_news',
             },
             {
                 title: 'Case',
-                path: '/case_buildersGuide',
+                path: '/case_news',
             },
             {
                 title: 'Power Supply',
-                path: '/powerSupply_buildersGuide',
+                path: '/powerSupply_news',
             },
             {
                 title: 'Operating System',
-                path: '/operatingSystem_buildersGuide',
+                path: '/operatingSystem_news',
             },
             {
                 title: 'Optical Drive',
-                path: '/opticalDrive_buildersGuide',
+                path: '/opticalDrive_news',
             },
         ]
-        
     }
 ]

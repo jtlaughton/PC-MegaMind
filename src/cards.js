@@ -1,61 +1,63 @@
 import React from 'react';
 import CardItem from './cardItem';
 import './cards.css';
+import pic1 from './Images/img-1.jpg';
+
+
 function Cards() {
   return (
     <div className='cards'>
-      <h1>News</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='../../../Images/img-1.jpg'
-              text='Product Description here.'
-              label='Adventure'
+              src= {pic1}
+              text='GPU news'
+              label='GPU'
               path='/services'
-            />
+           />
             <CardItem
-              src='../images/img-1.jpg'
-              text='Product Description here.'
-              label='Luxury'
-              path='/services'
-            />
-
-            <CardItem
-              src='../images/img-3.jpg'
-              text='Product Description here.'
-              label='Luxury'
+              src= {pic1}
+              text='CPU news'
+              label='CPU'
               path='/services'
             />
 
             <CardItem
-              src='../images/img-4.jpg'
-              text='Product Description here.'
-              label='Luxury'
+              src={pic1}
+              text='Motherboard news'
+              label='Motherboard'
+              path='/services'
+            />
+
+            <CardItem
+              src={pic1}
+              text='stuff.'
+              label='Storage'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src= {pic1}
               text='Product Description here.'
-              label='Mystery'
+              label='Cooling'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src= {pic1}
               text='Product Description here.'
-              label='Adventure'
+              label='OS'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src= {pic1}
               text='Product Description here.'
               label='Adrenaline'
               path='/sign-up'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src= {pic1}
               text='Product Description here.'
               label='Adrenaline'
               path='/sign-up'

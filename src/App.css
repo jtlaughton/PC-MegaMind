@@ -104,4 +104,17 @@
   font-size: 100px;
 }
 
+.filterButton {
+  transform: translate(300px);
+  margin-bottom: 1;
+  background-color: gray;
+  color:White;
+}
+
+.cart_container {
+  transform: translate(400px);
+  background-color: gray;
+  color:white;
+}
+
 

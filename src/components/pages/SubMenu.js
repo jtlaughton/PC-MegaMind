@@ -21,6 +21,24 @@ const SideBarDiv = styled.div`
     }
 `;
 
+const SideBarLink = styled(Link)`
+    display: flex;
+    color: #e1e9fc;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+    height: 60px;
+    text-decoration: none;
+    font-size: 18px;
+    
+    &:hover{
+        background: #2CADD4;
+        border-left: 4px solid #632ce4;
+        cursor: pointer;
+    }
+`;
+
 const SideBarButton = styled.div`
     display: flex;
     color: #e1e9fc;
@@ -64,12 +82,11 @@ export const SubMenu = ({item}) => {
 
     const showSubNav = () => setSubNav(!subnav);
 
-       
-    return (
-        <>
-            <SideBarDiv onClick={item.subNav && showSubNav}>
+    if(item.path == null){
+        return (
+            <>
+                <SideBarDiv onClick={item.subNav && showSubNav}>
                 <div>
-                    {item.icon}
                     <SideBarLabel>
                         {item.title}
                      </SideBarLabel>
@@ -84,12 +101,40 @@ export const SubMenu = ({item}) => {
             </SideBarDiv>
             {subnav && item.subNav.map((item_sub, index) => {
                 return (<DropDownLink to={item_sub.path} key={index}>
-                    {item_sub.icon}
                     <SideBarLabel>
                         {item_sub.title}
                     </SideBarLabel>
                 </DropDownLink>);
                 })}
             </>
-    )
+        );
+    }
+    else{
+        return (
+        <>
+            <SideBarLink to = {item.path} onClick={item.subNav && showSubNav}>
+                <div>
+                    <SideBarLabel>
+                        {item.title}
+                     </SideBarLabel>
+                </div>
+                <div>
+                    {item.subNav && subnav 
+                    ? item.iconOpened 
+                    : item.subNav 
+                    ? item.iconClosed 
+                    : null}
+                </div>
+            </SideBarLink>
+            {subnav && item.subNav.map((item_sub, index) => {
+                return (<DropDownLink to={item_sub.path} key={index}>
+                    <SideBarLabel>
+                        {item_sub.title}
+                    </SideBarLabel>
+                </DropDownLink>);
+                })}
+            </>
+        )
+    }
+    
 }
