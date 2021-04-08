@@ -6,14 +6,6 @@
     background-color: #f8f8ff; 
 }
 
-.cart-link{
-    color: #595959;
-}
-
-.cart-link:hover{
-    color: #595959;
-}
-
 .cart_container:hover{
   background-color: #dfdfe6;
   cursor: pointer;
