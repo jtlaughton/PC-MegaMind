@@ -10,7 +10,7 @@ function cart() {
                     My Cart
                 </div>
                 <div class='cart_image'>
-                    <AiIcons.AiOutlineShoppingCart/>;
+                    <AiIcons.AiOutlineShoppingCart size = {28}/>
                 </div>
                 <div class="cart_total">
                     Total: $1000
