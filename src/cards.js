@@ -14,53 +14,53 @@ function Cards() {
               src= {pic1}
               text='GPU news'
               label='GPU'
-              path='/services'
+              path='/newsExample'
            />
             <CardItem
               src= {pic1}
               text='CPU news'
               label='CPU'
-              path='/services'
+              path='/newsExample'
             />
 
             <CardItem
               src={pic1}
               text='Motherboard news'
               label='Motherboard'
-              path='/services'
+              path='/newsExample'
             />
 
             <CardItem
               src={pic1}
-              text='stuff.'
-              label='Storage'
-              path='/services'
+              text='Memory news'
+              label='Memory'
+              path='/newsExample'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src= {pic1}
-              text='Product Description here.'
+              text='Cooling news'
               label='Cooling'
-              path='/services'
+              path='/newsExample'
             />
             <CardItem
               src= {pic1}
-              text='Product Description here.'
+              text='OS News'
               label='OS'
-              path='/products'
+              path='/newsExample'
             />
             <CardItem
               src= {pic1}
-              text='Product Description here.'
-              label='Adrenaline'
-              path='/sign-up'
+              text='Storage News'
+              label='Storage'
+              path='/newsExample'
             />
             <CardItem
               src= {pic1}
-              text='Product Description here.'
-              label='Adrenaline'
-              path='/sign-up'
+              text='Optical Drive'
+              label='Optical Drive'
+              path='/newsExample'
             />
           </ul>
         </div>

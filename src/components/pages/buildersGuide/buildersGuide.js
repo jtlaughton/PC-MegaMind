@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
 import SideBar from './SideBar';
+import Button from 'react-bootstrap/Button'
 
 //import cpu from '../parts/cpu';
 //import SubMenu from '../../buildersGuideMenu';
@@ -41,9 +42,7 @@ return (
                 </Col>
                 <Col xs sm md lg xl={{ span: 3, offset: 1}}>
                 <Link to="/cpu_buildersGuide">
-                  <button>
-                    <span>Learn More</span>
-                  </button>
+                <Button variant="info">Learn More</Button>{' '}
                 </Link>
                 </Col>
             </Row>
@@ -54,9 +53,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/cpuCooler_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>
@@ -67,9 +65,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/motherboard_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>
@@ -80,9 +77,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/memory_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>
@@ -93,9 +89,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/storage_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>
@@ -106,9 +101,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/videoCard_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>
@@ -119,9 +113,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/case_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>
@@ -132,9 +125,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/powerSupply_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>
@@ -145,9 +137,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/operatingSystem_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>
@@ -158,9 +149,8 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/opticalDrive_buildersGuide">
-                <button>
-                  <span>Learn More</span>
-                </button>
+              <Button variant="info">Learn More</Button>{' '}
+
               </Link>
               </Col>
             </Row>

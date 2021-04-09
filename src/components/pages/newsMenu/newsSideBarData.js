@@ -18,7 +18,7 @@ export const SideBarData = [
         subNav: [
             {
                 title: 'CPU',
-                path: '/cpu_news',
+                path: '/newsExample',
             },
             {
                 title: 'CPU Cooler',

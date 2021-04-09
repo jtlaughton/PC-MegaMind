@@ -8,6 +8,7 @@ import BuildersGuide from './components/pages/buildersGuide/buildersGuide';
 import News from './components/pages/newsMenu/news';
 import Shop from './components/pages/shop/shop';
 import SuggestedBuilds from './components/pages/buildersGuide/suggestedBuilds/suggestedBuilds';
+import newsExample from './components/pages/newsMenu/newsExample';
 
 import cpu_buildersGuide from './components/pages/buildersGuide/cpu/cpu';
 import Case_buildersGuide from './components/pages/buildersGuide/case/case';
@@ -19,6 +20,7 @@ import opticalDrive_buildersGuide from './components/pages/buildersGuide/optical
 import powerSupply_buildersGuide from './components/pages/buildersGuide/powerSupply/powerSupply';
 import storage_buildersGuide from './components/pages/buildersGuide/storage/storage';
 import videoCard_buildersGuide from './components/pages/buildersGuide/videoCard/videoCard';
+import exampleBuild_buildersGuide from './components/pages/buildersGuide/suggestedBuilds/exampleBuild';
 
 import cpu_news from './components/pages/newsMenu/cpu/cpu';
 import Case_news from './components/pages/newsMenu/case/case';
@@ -64,6 +66,8 @@ function App() {
         <Route path='/powerSupply_buildersGuide' component={powerSupply_buildersGuide} />
         <Route path='/storage_buildersGuide' component={storage_buildersGuide} />
         <Route path='/videoCard_buildersGuide' component={videoCard_buildersGuide} />
+        <Route path='/exampleBuild' component={exampleBuild_buildersGuide} />
+        <Route path='/newsExample' component={newsExample} />
 
         <Route path='/cpu_news' component={cpu_news} />
         <Route path='/case_news' component={Case_news} />

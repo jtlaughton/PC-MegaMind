@@ -4,7 +4,7 @@ import '../../../../App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SideBar from './SideBarSuggested';
+import SideBar from '../SideBar';
 import Cards from './suggestedCards';
 //import SubMenu from '../../buildersGuideMenu';
 

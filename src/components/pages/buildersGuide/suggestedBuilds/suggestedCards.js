@@ -14,7 +14,7 @@ function Cards() {
               src= {pic1}
               text='$1600 Gaming rig, comes with....'
               label='PC Gaming'
-              path='/services'
+              path='/exampleBuild'
            />
 
           </ul>
@@ -23,7 +23,7 @@ function Cards() {
               src= {pic1}
               text='$750 Office desktop, perfect for...'
               label='Office Work'
-              path='/services'
+              path='/exampleBuild'
             />
           </ul>
 
@@ -32,7 +32,7 @@ function Cards() {
               src= {pic1}
               text='$2500 server desktop with...'
               label='Server Hosting'
-              path='/services'
+              path='/exampleBuild'
             />
           </ul>
         </div>
