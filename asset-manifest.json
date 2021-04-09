@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/PC-MegaMind/static/css/main.4cd4b241.chunk.css",
-    "main.js": "/PC-MegaMind/static/js/main.dc332874.chunk.js",
-    "main.js.map": "/PC-MegaMind/static/js/main.dc332874.chunk.js.map",
-    "runtime-main.js": "/PC-MegaMind/static/js/runtime-main.30332142.js",
-    "runtime-main.js.map": "/PC-MegaMind/static/js/runtime-main.30332142.js.map",
-    "static/js/2.3e39697a.chunk.js": "/PC-MegaMind/static/js/2.3e39697a.chunk.js",
-    "static/js/2.3e39697a.chunk.js.map": "/PC-MegaMind/static/js/2.3e39697a.chunk.js.map",
-    "static/js/3.6dd01d02.chunk.js": "/PC-MegaMind/static/js/3.6dd01d02.chunk.js",
-    "static/js/3.6dd01d02.chunk.js.map": "/PC-MegaMind/static/js/3.6dd01d02.chunk.js.map",
+    "main.css": "/PC-MegaMind/static/css/main.1f243e19.chunk.css",
+    "main.js": "/PC-MegaMind/static/js/main.4beb455c.chunk.js",
+    "main.js.map": "/PC-MegaMind/static/js/main.4beb455c.chunk.js.map",
+    "runtime-main.js": "/PC-MegaMind/static/js/runtime-main.87e55b19.js",
+    "runtime-main.js.map": "/PC-MegaMind/static/js/runtime-main.87e55b19.js.map",
+    "static/js/2.766530d8.chunk.js": "/PC-MegaMind/static/js/2.766530d8.chunk.js",
+    "static/js/2.766530d8.chunk.js.map": "/PC-MegaMind/static/js/2.766530d8.chunk.js.map",
+    "static/js/3.04e9f0db.chunk.js": "/PC-MegaMind/static/js/3.04e9f0db.chunk.js",
+    "static/js/3.04e9f0db.chunk.js.map": "/PC-MegaMind/static/js/3.04e9f0db.chunk.js.map",
     "index.html": "/PC-MegaMind/index.html",
-    "static/css/main.4cd4b241.chunk.css.map": "/PC-MegaMind/static/css/main.4cd4b241.chunk.css.map",
-    "static/js/2.3e39697a.chunk.js.LICENSE.txt": "/PC-MegaMind/static/js/2.3e39697a.chunk.js.LICENSE.txt",
+    "static/css/main.1f243e19.chunk.css.map": "/PC-MegaMind/static/css/main.1f243e19.chunk.css.map",
+    "static/js/2.766530d8.chunk.js.LICENSE.txt": "/PC-MegaMind/static/js/2.766530d8.chunk.js.LICENSE.txt",
     "static/media/img-1.53f48437.jpg": "/PC-MegaMind/static/media/img-1.53f48437.jpg",
     "static/media/pcmm_icon.59837a0c.svg": "/PC-MegaMind/static/media/pcmm_icon.59837a0c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.30332142.js",
-    "static/js/2.3e39697a.chunk.js",
-    "static/css/main.4cd4b241.chunk.css",
-    "static/js/main.dc332874.chunk.js"
+    "static/js/runtime-main.87e55b19.js",
+    "static/js/2.766530d8.chunk.js",
+    "static/css/main.1f243e19.chunk.css",
+    "static/js/main.4beb455c.chunk.js"
   ]
 }
