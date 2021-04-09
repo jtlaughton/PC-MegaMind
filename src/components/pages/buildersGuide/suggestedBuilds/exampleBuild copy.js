@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Link} from 'react-router-dom';
-import Cart from './cart';
+import Cart from '../../shop/cart';
 
 
 
@@ -27,7 +27,7 @@ return (
                   <span>Back</span>
                 </button>
           </Link>
-          <Link to="/cart_example">
+          <Link to="/cpu_buildersGuide">
                 <span ><Cart/></span>
           </Link>
         </Row>
@@ -37,7 +37,7 @@ return (
             <p className='justifcationParagraph'>Justifcation Paragraph</p>
           </Col>
           <Col xs sm md lg xl={{ span: 3, offset: 0}}>
-            <Link to="/cart_example">
+            <Link to="/cpu_buildersGuide">
                   <button className='addAllButton'>
                     <span>Add all to cart</span>
                   </button>

@@ -21,6 +21,7 @@ import powerSupply_buildersGuide from './components/pages/buildersGuide/powerSup
 import storage_buildersGuide from './components/pages/buildersGuide/storage/storage';
 import videoCard_buildersGuide from './components/pages/buildersGuide/videoCard/videoCard';
 import exampleBuild_buildersGuide from './components/pages/buildersGuide/suggestedBuilds/exampleBuild';
+import cart_example from './components/pages/buildersGuide/suggestedBuilds/cartPage'
 
 import cpu_news from './components/pages/newsMenu/cpu/cpu';
 import Case_news from './components/pages/newsMenu/case/case';
@@ -43,6 +44,7 @@ import opticalDrive_shop from './components/pages/shop/opticalDrive/opticalDrive
 import powerSupply_shop from './components/pages/shop/powerSupply/powerSupply';
 import storage_shop from './components/pages/shop/storage/storage';
 import videoCard_shop from './components/pages/shop/videoCard/videoCard';
+import cart_shop from './components/pages/shop/cartPage'
 
 
 function App() {
@@ -68,6 +70,7 @@ function App() {
         <Route path='/videoCard_buildersGuide' component={videoCard_buildersGuide} />
         <Route path='/exampleBuild' component={exampleBuild_buildersGuide} />
         <Route path='/newsExample' component={newsExample} />
+        <Route path='/cart_example' component={cart_example} />
 
         <Route path='/cpu_news' component={cpu_news} />
         <Route path='/case_news' component={Case_news} />
@@ -90,6 +93,7 @@ function App() {
         <Route path='/powerSupply_shop' component={powerSupply_shop} />
         <Route path='/storage_shop' component={storage_shop} />
         <Route path='/videoCard_shop' component={videoCard_shop} />
+        <Route path='/cart_shop' component={cart_shop}/>
 
       </Switch>
     </Router>
