@@ -10,7 +10,7 @@ export default function storage() {
   return (
     <> 
         <div className='pages'>
-            <Container className='sidebar_BG'>
+            <Container className='sidebar_BG' fluid="md">
                 <Row className="sidebar_row" xs sm md lg xl={1}>
                     <Col xs sm md lg xl={{ span: 3, offset: 0}}>
                         <SideBar/>

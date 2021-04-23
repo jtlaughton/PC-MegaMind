@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "itemName": "RTX 3060",
+            "price": 400,
+            "imageSrc": "/3060.png",
+            "type": "gpu"
+        },
+        {
+            "itemName": "AMD 5700X",
+            "price": 500,
+            "imageSrc": "/5700.png",
+            "type": "cpu"
+        }
+    ]
+}

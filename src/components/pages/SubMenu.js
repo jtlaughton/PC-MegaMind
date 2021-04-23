@@ -15,8 +15,8 @@ const SideBarDiv = styled.div`
     font-size: 18px;
     
     &:hover{
-        background: #2CADD4;
-        border-left: 4px solid #632ce4;
+        background: #3A3736;
+        color: #e1e9fc;
         cursor: pointer;
     }
 `;
@@ -33,8 +33,8 @@ const SideBarLink = styled(Link)`
     font-size: 18px;
     
     &:hover{
-        background: #2CADD4;
-        border-left: 4px solid #632ce4;
+        background: #3A3736;
+        color: #e1e9fc;
         cursor: pointer;
     }
 `;
@@ -51,8 +51,8 @@ const SideBarButton = styled.div`
     font-size: 18px;
     
     &:hover{
-        background: #2CADD4;
-        border-left: 4px solid #632ce4;
+        background: #3A3736;
+        color: #e1e9fc;
         cursor: pointer;
     }
 `;
@@ -62,7 +62,7 @@ const SideBarLabel = styled.span`
 `;
 
 const DropDownLink = styled(Link)`
-    background: #2c95d3;
+    background: #242221;
     height: 60px;
     padding-left: 3rem;
     display: flex;
@@ -72,7 +72,8 @@ const DropDownLink = styled(Link)`
     font-size: 18px;
 
     &:hover {
-        background: #4296bd;
+        background: #3A3736;
+        color: #e1e9fc;
         cursor: pointer
     }
 `;

@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import {SideBarData} from './SideBarData';
-import {SubMenu} from '../SubMenu';
+import {SubMenu} from '../../SubMenu';
 
 const Nav = styled.div`
-    background: #242221;
+    background: #5CBEDB;
     height: 80px;
     display: flex;
     justify-content: flex-start;
@@ -24,7 +24,7 @@ const NavIcon = styled(Link)`
 `;
 
 const SideBarNav = styled.nav`
-    background: #242221;
+    background: #5CBEDB;
     width: 250px;
     display: flex;
     justify-content: center;

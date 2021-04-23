@@ -17,11 +17,10 @@ return (
       <div className='homeParagraph1'>
         <p>A site for beginners in building a PC</p>
       </div>
-      <div >
+      <div class="homeButton">
         <Link to="/buildersGuide">
-          <button className='homeButton'>
-            <span>Ready to begin? Click here and jump in!</span>
-          </button>
+          <button className='homeButton' type="button" class="btn btn-primary btn-dark">Ready to begin? Click here and jump in!</button>
+          
         </Link>
       </div>
 

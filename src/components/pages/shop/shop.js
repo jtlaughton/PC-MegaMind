@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../App.css';
-import Cards from '../../../cards';
+import Cards from './shopCards';
 import SideBar from '../shop/shopSideBar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

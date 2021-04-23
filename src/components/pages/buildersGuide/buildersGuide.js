@@ -27,9 +27,9 @@ export default function buildersGuide() {
 return (
   <>
     <div className='pages'>
-    <Container className='sidebar_BG'>
-      <Row className="sidebar_row" xs sm md lg xl={1}>
-        <Col xs sm md lg xl={{ span: 2, offset: 0}}>
+    <Container className='sidebar_BG' fluid="md">
+      <Row className="sidebar_row" noGutters = {true}>
+        <Col md ={1}>
         <SideBar/>
         </Col>
         <Col>
@@ -42,7 +42,7 @@ return (
                 </Col>
                 <Col xs sm md lg xl={{ span: 3, offset: 1}}>
                 <Link to="/cpu_buildersGuide">
-                <Button variant="info">Learn More</Button>{' '}
+                <Button variant="dark">Learn More</Button>{' '}
                 </Link>
                 </Col>
             </Row>
@@ -53,7 +53,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/cpuCooler_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>
@@ -65,7 +65,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/motherboard_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>
@@ -77,7 +77,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/memory_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>
@@ -89,7 +89,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/storage_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>
@@ -101,7 +101,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/videoCard_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>
@@ -113,7 +113,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/case_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>
@@ -125,7 +125,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/powerSupply_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>
@@ -137,7 +137,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/operatingSystem_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>
@@ -149,7 +149,7 @@ return (
               </Col>
               <Col xs sm md lg xl={{ span: 3, offset: 1}}>
               <Link to="/opticalDrive_buildersGuide">
-              <Button variant="info">Learn More</Button>{' '}
+              <Button variant="dark">Learn More</Button>{' '}
 
               </Link>
               </Col>

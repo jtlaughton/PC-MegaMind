@@ -1,0 +1,14 @@
+{
+    "items": [
+        {
+            "article": "New CPU From AMD",
+            "imageSrc": "/newCPUSrc.png",
+            "type": "cpu"
+        },
+        {
+            "article": "New GPU From Nvidia",
+            "iamgeSrc": "newGPUSrc.png",
+            "type": "gpu"
+        }
+    ]
+}

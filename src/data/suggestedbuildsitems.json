@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "title": "$1600 Gaming rig, comes with....",
+            "link": "/1600Build",
+            "label": "PC Gaming",
+            "iamgeSrc": "/1600ImgSrc.png"
+        },
+        {
+            "title": "$750 Office desktop, perfect for...",
+            "link": "/750Build",
+            "label": "Office Work",
+            "iamgeSrc": "/750ImgSrc.png"
+        },
+        {
+            "title": "$2500 server desktop with....",
+            "link": "/2500Build",
+            "label": "Server Hosting",
+            "iamgeSrc": "/2500ImgSrc.png"
+        }
+    ]
+}
