@@ -21,7 +21,6 @@ const SideBarDiv = styled.div`
 
     &:hover{
         background: #D1BECD;
-        border-left: 4px solid #632ce4;
         cursor: pointer;
     }`;
 
@@ -50,15 +49,15 @@ const DropDownDiv = styled.div`
 const DataObject = [
     {
         title: 'Part Selection',
-        iconClosed: <RiIcons.RiArrowDownSFill />,
-        iconOpened: <RiIcons.RiArrowUpSFill />,
+        iconClosed: <RiIcons.RiArrowDownFill />,
+        iconOpened: <RiIcons.RiArrowUpFill />,
         subNav: null,
     }
 ];
 
 let bruh = ['bruh'];
 
-const FilterButton = () => {
+const FilterButton = (props) => {
     const [subnav, setSubNav] = useState(false);
 
     const showSubNav = () => setSubNav(!subnav);
@@ -86,27 +85,35 @@ const FilterButton = () => {
                         <fieldset>
                             <Form.Group controlId="exampleForm.ControlSelect1">
                                 <Form.Label>Sort By</Form.Label>
-                                <Form.Control as="select">
-                                <option>Low to High</option>
-                                <option>High to Low</option>
-                                <option>Alphabetical</option>
+                                <Form.Control as="select"
+                                custom
+                                onChange = {props.updateSort} >
+                                <option value = "0">Price: Low to High</option>
+                                <option value = "1">Price: High to Low</option>
+                                <option value = "2">Name: Alphabetical</option>
                                 </Form.Control>
                             </Form.Group>
-                            <Form.Group controlId="exampleForm.ControlSelect1">
+                            <Form.Group controlId="exampleForm.ControlSelect1"
+                                custom
+                                onChange = {props.updateBrand}>
                                 <Form.Label>Example select</Form.Label>
                                 <Form.Control as="select">
-                                <option>Brand 1</option>
-                                <option>Brand 2</option>
+                                <option value = "None">None</option>
+                                <option value = "AMD">AMD</option>
+                                <option value = "Nvidia">Nvidia</option>
                                 </Form.Control>
                             </Form.Group>
                             <Form>
                                 <Form.Label>Price Range</Form.Label>
                                 <Row>
                                     <Col>
-                                    <Form.Control placeholder="price low..." />
+                                    <Form.Control id = "input_low" placeholder="price low..." />
                                     </Col>
                                     <Col>
-                                    <Form.Control placeholder="price high..." />
+                                    <Form.Control id = "input_high" placeholder="price high..." />
+                                    </Col>
+                                    <Col>
+                                        <Button onClick = {props.updatePrice}>Submit</Button>
                                     </Col>
                                 </Row>
                                 </Form>

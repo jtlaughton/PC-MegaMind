@@ -3,14 +3,77 @@
         {
             "itemName": "RTX 3060",
             "price": 400,
-            "imageSrc": "/3060.png",
-            "type": "gpu"
+            "imageSrc": "3060",
+            "type": "gpu",
+            "brand": "Nvidia"
+
         },
         {
             "itemName": "AMD 5700X",
             "price": 500,
-            "imageSrc": "/5700.png",
-            "type": "cpu"
+            "imageSrc": "5700x",
+            "type": "cpu",
+            "brand": "AMD"
+        },
+        {
+            "itemName": "RTX 3060",
+            "price": 400,
+            "imageSrc": "3060",
+            "type": "gpu",
+            "brand": "Nvidia"
+
+        },
+        {
+            "itemName": "AMD 5700X",
+            "price": 500,
+            "imageSrc": "5700x",
+            "type": "cpu",
+            "brand": "AMD"
+        },
+        {
+            "itemName": "RTX 3060",
+            "price": 400,
+            "imageSrc": "3060",
+            "type": "gpu",
+            "brand": "Nvidia"
+
+        },
+        {
+            "itemName": "AMD 5700X",
+            "price": 500,
+            "imageSrc": "5700x",
+            "type": "cpu",
+            "brand": "AMD"
+        },
+        {
+            "itemName": "RTX 3060",
+            "price": 400,
+            "imageSrc": "3060",
+            "type": "gpu",
+            "brand": "Nvidia"
+
+        },
+        {
+            "itemName": "AMD 5700X",
+            "price": 500,
+            "imageSrc": "5700x",
+            "type": "cpu",
+            "brand": "AMD"
+        },
+        {
+            "itemName": "RTX 3060",
+            "price": 400,
+            "imageSrc": "3060",
+            "type": "gpu",
+            "brand": "Nvidia"
+
+        },
+        {
+            "itemName": "AMD 5700X",
+            "price": 500,
+            "imageSrc": "5700x",
+            "type": "cpu",
+            "brand": "AMD"
         }
     ]
 }

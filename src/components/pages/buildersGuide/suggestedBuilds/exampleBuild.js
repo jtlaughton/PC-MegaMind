@@ -25,7 +25,7 @@ export default function exampleBuild() {
   };
 return (
   <>
-    <div className='examplePages'>
+    <div className='pages'>
   <Container className='sidebar_BG' fluid='md'>
     <Row className="sidebar_row" xs sm md lg xl={1}>
       <Col xs sm md lg xl={{ span: 3, offset: 0}}>
@@ -39,7 +39,7 @@ return (
             <Button variant="dark">Back</Button>{' '}
           </Link>
 
-          <Link to="/cart_example">
+          <Link to="/cart_example"> 
             <div className ='cartClass'>
                <Cart/>
             </div>
@@ -184,13 +184,6 @@ return (
           </Col>
           
         </Row>
-
-        <Row className="sidebar_row" xs sm md lg xl={1}>
-          
-        
-
-        </Row>
-
       </Col>
     </Row>
   </Container>

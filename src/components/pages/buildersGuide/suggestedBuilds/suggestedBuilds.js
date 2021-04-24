@@ -20,7 +20,7 @@ return (
         <Col xs sm md lg xl={{ span: 2, offset: 0}}>
           <SideBar></SideBar>
         </Col>
-        <Col xs sm md lg xl={{ span: 10, offset: 0}}>
+        <Col xs sm md lg xl={{ span: 9, offset: 0}}>
           <div>
             <h1 >Suggested Builds</h1>
             <p>Check out some of our suggested builds by other users:</p>

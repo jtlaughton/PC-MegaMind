@@ -7,7 +7,7 @@ import {SideBarData} from './newsSideBarData';
 import {SubMenu} from '../SubMenu';
 
 const Nav = styled.div`
-    background: #e1e9fc;
+    background: #242221;
     height: 80px;
     display: flex;
     justify-content: flex-start;
@@ -24,7 +24,7 @@ const NavIcon = styled(Link)`
 `;
 
 const SideBarNav = styled.nav`
-    background: #3A3736;
+    background: #242221;
     width: 250px;
     display: flex;
     justify-content: center;
