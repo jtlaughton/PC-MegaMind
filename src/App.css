@@ -9,7 +9,15 @@
 .pages {
   background-color: #F7E1DA;
   /*background-size: cover;*/
+  height: 100vh;
+  overflow: hidden;
+}
+
+.examplePages {
+  background-color: #F7E1DA;
+  /*background-size: cover;*/
   height: 200vh;
+  overflow: hidden;
 }
 
 .home {
@@ -22,7 +30,7 @@
 .homeHeader {
   padding-top: 10%;
   color:black;
-  font-size: 50px;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -42,6 +50,8 @@
   margin-left: 40%;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 20px;
+  width:50%;
 }
 
 .backButton {
@@ -107,12 +117,12 @@
 }
 
 .justifcationParagraph {
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
   transform: translate(0px, 20px);
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-bottom: 300px;
+  padding-left: 200px;
+  padding-right: 400px;
+  padding-bottom: 700px;
   border: solid 2px;
 }
 
@@ -120,4 +130,33 @@
   transform: translate(400px, 300px);
 }
 
+.descriptions {
+  font-size: 30px;
+}
+
+.buildersOverview {
+  font-size: 4rem;
+}
+
+.cartClass {
+  padding-left: 46rem;
+}
+
+.card1 {
+  width: 20rem;
+  background: whitesmoke;
+  padding-bottom: 2rem;
+}
+
+.exampleSet {
+  padding-top: 3rem;
+}
+
+.sliderHeader {
+  padding-top: 2rem;
+}
+
+.sliderHeader1 {
+  padding-top: 4rem;
+}
 

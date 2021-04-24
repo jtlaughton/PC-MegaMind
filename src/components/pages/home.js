@@ -19,7 +19,7 @@ return (
       </div>
       <div class="homeButton">
         <Link to="/buildersGuide">
-          <button className='homeButton' type="button" class="btn btn-primary btn-dark">Ready to begin? Click here and jump in!</button>
+          <button className='homeButton' type="button" class="btn btn-primary btn-dark btn-lg">Ready to begin? Click here and jump in!</button>
           
         </Link>
       </div>

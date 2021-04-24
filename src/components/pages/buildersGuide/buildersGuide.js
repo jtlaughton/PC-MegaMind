@@ -34,13 +34,13 @@ return (
         </Col>
         <Col>
           <div>
-            <h1 >Overview</h1>
+            <h1 className='buildersOverview'>Overview</h1>
             <p>A PC contains the following components:</p>
             <Row>
                 <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                  <p >CPU: Description Here</p>
+                  <p className='descriptions'>CPU: Description Here</p>
                 </Col>
-                <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+                <Col xs sm md lg xl={{ span: 3, offset: 2}}>
                 <Link to="/cpu_buildersGuide">
                 <Button variant="dark">Learn More</Button>{' '}
                 </Link>
@@ -49,9 +49,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>CPU Cooler: Description Here</p>
+                <p className='descriptions'>CPU Cooler: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/cpuCooler_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
@@ -61,9 +61,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>Motherboard: Description Here</p>
+                <p className='descriptions'>Motherboard: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/motherboard_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
@@ -73,9 +73,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>Memory: Description Here</p>
+                <p className='descriptions'>Memory: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/memory_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
@@ -85,9 +85,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>Storage: Description Here</p>
+                <p className='descriptions'>Storage: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/storage_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
@@ -97,9 +97,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>Video Card: Description Here</p>
+                <p className='descriptions'>Video Card: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/videoCard_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
@@ -109,9 +109,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>Case: Description Here</p>
+                <p className='descriptions'>Case: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/case_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
@@ -121,9 +121,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>Power Supply: Description Here</p>
+                <p className='descriptions'>Power Supply: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/powerSupply_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
@@ -133,9 +133,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>Operating System: Description Here</p>
+                <p className='descriptions'>Operating System: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/operatingSystem_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
@@ -145,9 +145,9 @@ return (
 
             <Row>
               <Col xs sm md lg xl={{ span: 4, offset: 1}}>
-                <p>Optical Drive: Description Here</p>
+                <p className='descriptions'>Optical Drive: Description Here</p>
               </Col>
-              <Col xs sm md lg xl={{ span: 3, offset: 1}}>
+              <Col xs sm md lg xl={{ span: 3, offset: 2}}>
               <Link to="/opticalDrive_buildersGuide">
               <Button variant="dark">Learn More</Button>{' '}
 
