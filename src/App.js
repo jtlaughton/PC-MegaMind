@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Navbar from './navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom'
 
 import Home from './components/pages/home';
 import BuildersGuide from './components/pages/buildersGuide/buildersGuide';
@@ -49,7 +50,7 @@ import cart_shop from './components/pages/shop/cartPage'
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
@@ -96,7 +97,7 @@ function App() {
         <Route path='/cart_shop' component={cart_shop}/>
 
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 
