@@ -34,7 +34,7 @@ return (
                         <p class="card-text">Best GPUs for mining</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -45,7 +45,7 @@ return (
                         <p class="card-text">Intel unveils new 10th gen processor</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -56,7 +56,7 @@ return (
                         <p class="card-text">Experts show their take on SSDs</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -67,7 +67,7 @@ return (
                         <p class="card-text">Top 10 Gaming Cases</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
                 </div>
