@@ -19,9 +19,9 @@ function navbar() {
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="/PC-MegaMind">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="/buildersGuide">Builders Guide</a>
-            <a class="nav-item nav-link" href="/news">News</a>
-            <a class="nav-item nav-link" href="/shop">Shop</a>
+            <a class="nav-item nav-link" href="/PC-MegaMind/#/buildersGuide">Builders Guide</a>
+            <a class="nav-item nav-link" href="/PC-MegaMind/#/news">News</a>
+            <a class="nav-item nav-link" href="/PC-MegaMind/#/shop">Shop</a>
           </div>
         </div>
     </nav>
