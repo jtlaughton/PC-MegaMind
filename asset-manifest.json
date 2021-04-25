@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PC-MegaMind/static/css/main.7e6d902e.chunk.css",
-    "main.js": "/PC-MegaMind/static/js/main.05331b3d.chunk.js",
-    "main.js.map": "/PC-MegaMind/static/js/main.05331b3d.chunk.js.map",
+    "main.js": "/PC-MegaMind/static/js/main.c77f2cb1.chunk.js",
+    "main.js.map": "/PC-MegaMind/static/js/main.c77f2cb1.chunk.js.map",
     "runtime-main.js": "/PC-MegaMind/static/js/runtime-main.66355a2e.js",
     "runtime-main.js.map": "/PC-MegaMind/static/js/runtime-main.66355a2e.js.map",
     "static/js/2.301cfba4.chunk.js": "/PC-MegaMind/static/js/2.301cfba4.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.66355a2e.js",
     "static/js/2.301cfba4.chunk.js",
     "static/css/main.7e6d902e.chunk.css",
-    "static/js/main.05331b3d.chunk.js"
+    "static/js/main.c77f2cb1.chunk.js"
   ]
 }
