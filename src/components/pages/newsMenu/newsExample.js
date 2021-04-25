@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SideBar from './newsSideBar';
 
-import SideBar from './newsSideBar';
+
 
 export default function newsExample() {
     return (
