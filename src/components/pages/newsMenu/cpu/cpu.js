@@ -34,7 +34,7 @@ function cpu() {
                         <p class="card-text">New Intel i9 processor revealed</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -45,7 +45,7 @@ function cpu() {
                         <p class="card-text">AMD Ryzen 9</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -56,7 +56,7 @@ function cpu() {
                         <p class="card-text">AMD Ryzen 5 5600X</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -67,7 +67,7 @@ function cpu() {
                         <p class="card-text">Intel i9 10700k</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
                 </div>

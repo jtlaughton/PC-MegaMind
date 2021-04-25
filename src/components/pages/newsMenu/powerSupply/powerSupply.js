@@ -35,7 +35,7 @@ function powerSupply() {
                         <p class="card-text">Bronze certified VS Gold certified. What's the difference?</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -46,7 +46,7 @@ function powerSupply() {
                         <p class="card-text">Is Bronze more efficient than Gold?</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -57,7 +57,7 @@ function powerSupply() {
                         <p class="card-text">5 Tips to perserve your PC power supply</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -68,7 +68,7 @@ function powerSupply() {
                         <p class="card-text">Should you get a 1000W power supply for gaming?</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
                 </div>

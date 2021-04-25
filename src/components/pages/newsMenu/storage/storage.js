@@ -34,7 +34,7 @@ function storage() {
                         <p class="card-text">Seagate releases new 5TB SSD</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -45,7 +45,7 @@ function storage() {
                         <p class="card-text">New Samsung SSD</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -56,7 +56,7 @@ function storage() {
                         <p class="card-text">Should you switch to SSD?</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -67,7 +67,7 @@ function storage() {
                         <p class="card-text">Is WD better than Seagate?</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
                 </div>

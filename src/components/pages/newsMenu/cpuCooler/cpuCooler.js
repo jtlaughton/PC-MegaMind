@@ -34,7 +34,7 @@ function cpuCooler() {
                         <p class="card-text">MSI MAG Series</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -45,7 +45,7 @@ function cpuCooler() {
                         <p class="card-text">Corsair's iCUE H150i</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -56,7 +56,7 @@ function cpuCooler() {
                         <p class="card-text">Cooler Master better than water cooling?</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -67,7 +67,7 @@ function cpuCooler() {
                         <p class="card-text">NZXT Kraken X53</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
                 </div>

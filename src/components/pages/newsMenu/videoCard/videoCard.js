@@ -34,7 +34,7 @@ function videoCard() {
                         <p class="card-text">New Nvidia RTX 3090</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -45,7 +45,7 @@ function videoCard() {
                         <p class="card-text">Best GPUs for mining</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -56,7 +56,7 @@ function videoCard() {
                         <p class="card-text">Bitcoin mining w/ RTX 3060</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
 
@@ -67,7 +67,7 @@ function videoCard() {
                         <p class="card-text">New Nvidia plans for 4000 series GPUs</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
                       </div>
                     </div>
                 </div>
