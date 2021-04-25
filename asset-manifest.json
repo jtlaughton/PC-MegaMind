@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/PC-MegaMind/static/css/main.8683faa9.chunk.css",
-    "main.js": "/PC-MegaMind/static/js/main.76a95a69.chunk.js",
-    "main.js.map": "/PC-MegaMind/static/js/main.76a95a69.chunk.js.map",
-    "runtime-main.js": "/PC-MegaMind/static/js/runtime-main.67dd6242.js",
-    "runtime-main.js.map": "/PC-MegaMind/static/js/runtime-main.67dd6242.js.map",
-    "static/js/2.c4bf0b92.chunk.js": "/PC-MegaMind/static/js/2.c4bf0b92.chunk.js",
-    "static/js/2.c4bf0b92.chunk.js.map": "/PC-MegaMind/static/js/2.c4bf0b92.chunk.js.map",
-    "static/js/3.311c493c.chunk.js": "/PC-MegaMind/static/js/3.311c493c.chunk.js",
-    "static/js/3.311c493c.chunk.js.map": "/PC-MegaMind/static/js/3.311c493c.chunk.js.map",
+    "main.css": "/PC-MegaMind/static/css/main.7e6d902e.chunk.css",
+    "main.js": "/PC-MegaMind/static/js/main.edb52adc.chunk.js",
+    "main.js.map": "/PC-MegaMind/static/js/main.edb52adc.chunk.js.map",
+    "runtime-main.js": "/PC-MegaMind/static/js/runtime-main.66355a2e.js",
+    "runtime-main.js.map": "/PC-MegaMind/static/js/runtime-main.66355a2e.js.map",
+    "static/js/2.301cfba4.chunk.js": "/PC-MegaMind/static/js/2.301cfba4.chunk.js",
+    "static/js/2.301cfba4.chunk.js.map": "/PC-MegaMind/static/js/2.301cfba4.chunk.js.map",
+    "static/js/3.25a5c823.chunk.js": "/PC-MegaMind/static/js/3.25a5c823.chunk.js",
+    "static/js/3.25a5c823.chunk.js.map": "/PC-MegaMind/static/js/3.25a5c823.chunk.js.map",
     "index.html": "/PC-MegaMind/index.html",
-    "static/css/main.8683faa9.chunk.css.map": "/PC-MegaMind/static/css/main.8683faa9.chunk.css.map",
-    "static/js/2.c4bf0b92.chunk.js.LICENSE.txt": "/PC-MegaMind/static/js/2.c4bf0b92.chunk.js.LICENSE.txt",
-    "static/media/3060.png": "/PC-MegaMind/static/media/3060.7690b9ff.png",
-    "static/media/5700.png": "/PC-MegaMind/static/media/5700.7c07ffa4.png",
-    "static/media/img-1.jpg": "/PC-MegaMind/static/media/img-1.53f48437.jpg",
-    "static/media/img-2.jpg": "/PC-MegaMind/static/media/img-2.bb238fc1.jpg",
-    "static/media/img-3.jpg": "/PC-MegaMind/static/media/img-3.6d683c0e.jpg",
-    "static/media/pcmm_icon.svg": "/PC-MegaMind/static/media/pcmm_icon.59837a0c.svg",
-    "static/media/pcmm_icon.png": "/PC-MegaMind/static/media/pcmm_icon.6a9d8383.png"
+    "static/css/main.7e6d902e.chunk.css.map": "/PC-MegaMind/static/css/main.7e6d902e.chunk.css.map",
+    "static/js/2.301cfba4.chunk.js.LICENSE.txt": "/PC-MegaMind/static/js/2.301cfba4.chunk.js.LICENSE.txt",
+    "static/media/3060.1694b944.jpg": "/PC-MegaMind/static/media/3060.1694b944.jpg",
+    "static/media/5700.d084d68b.jpg": "/PC-MegaMind/static/media/5700.d084d68b.jpg",
+    "static/media/img-1.53f48437.jpg": "/PC-MegaMind/static/media/img-1.53f48437.jpg",
+    "static/media/img-2.bb238fc1.jpg": "/PC-MegaMind/static/media/img-2.bb238fc1.jpg",
+    "static/media/img-3.6d683c0e.jpg": "/PC-MegaMind/static/media/img-3.6d683c0e.jpg",
+    "static/media/pcmm_icon.9feb7913.png": "/PC-MegaMind/static/media/pcmm_icon.9feb7913.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.67dd6242.js",
-    "static/js/2.c4bf0b92.chunk.js",
-    "static/css/main.8683faa9.chunk.css",
-    "static/js/main.76a95a69.chunk.js"
+    "static/js/runtime-main.66355a2e.js",
+    "static/js/2.301cfba4.chunk.js",
+    "static/css/main.7e6d902e.chunk.css",
+    "static/js/main.edb52adc.chunk.js"
   ]
 }
