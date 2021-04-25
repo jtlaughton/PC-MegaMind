@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import {Link} from 'react-router-dom';
 import Cards from '../../../../cards';
 import SideBar from '../newsSideBar';
+import pic1 from '../../../../Images/img-1.jpg';
 
 function operatingSystem() {
     return (
@@ -18,18 +19,60 @@ function operatingSystem() {
               <SideBar/>
               
             </Col>
-            <Col xs sm md lg xl={{ span: 9, offset: 0}}>
-              <div>
-              <h1 >Operating System News</h1>
-                <p>Find Operating Systems Here</p>
-      
-                <Cards />
-      
-      
-                
-      
-      
-              </div>
+            <Col xs sm md lg xl={{ span: 8, offset: 0}}>
+            <div>
+          <h1 >Operating System News</h1>
+          <p>Most recent computer part news:</p>
+
+          <div class="container-md">
+                <div class="card-deck">
+
+                   <div class="card" >
+                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Operating System News Article Build</h5>
+                        <p class="card-text">How is Linux safer than Windows?</p>
+                      </div>
+                      <div class="card-body">
+                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      </div>
+                    </div>
+
+                    <div class="card" >
+                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Operating System News Article</h5>
+                        <p class="card-text">Find out how you can save Windows on a flash drive</p>
+                      </div>
+                      <div class="card-body">
+                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      </div>
+                    </div>
+
+                    <div class="card" >
+                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Operating System News Article</h5>
+                        <p class="card-text">MacOS vs Windows. Which is better?</p>
+                      </div>
+                      <div class="card-body">
+                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      </div>
+                    </div>
+
+                    <div class="card" >
+                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Operating System News Article</h5>
+                        <p class="card-text">Microsoft unveils Windows 20</p>
+                      </div>
+                      <div class="card-body">
+                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      </div>
+                    </div>
+                </div>
+             </div> 
+        </div>
       
             </Col>
           </Row>

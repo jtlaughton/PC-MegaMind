@@ -10,7 +10,7 @@
   background-color: #F7E1DA;
   /*background-size: cover;*/
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .examplePages {

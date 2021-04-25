@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './navbar.css';
-import pic1 from './Images/pcmm_icon.svg';
+import pic1 from './Images/pcmm_icon.png';
 
 
 function navbar() {

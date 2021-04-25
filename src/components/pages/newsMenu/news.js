@@ -30,44 +30,44 @@ return (
                    <div class="card" >
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
-                        <h5 class="card-title">Budget Build</h5>
-                        <p class="card-text">This build is the budget build</p>
+                        <h5 class="card-title">GPU News</h5>
+                        <p class="card-text">Best GPUs for mining</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">Click here to look at build</a>
-                      </div>
-                    </div>
-
-                    <div class="card" >
-                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                      <div class="card-body">
-                        <h5 class="card-title">Office Build</h5>
-                        <p class="card-text">This build is the office build</p>
-                      </div>
-                      <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">Click here to look at build</a>
+                      <a href="/exampleBuild" class="card-link">View Article</a>
                       </div>
                     </div>
 
                     <div class="card" >
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
-                        <h5 class="card-title">Gaming Build</h5>
-                        <p class="card-text">This build is the gaming build</p>
+                        <h5 class="card-title">CPU News</h5>
+                        <p class="card-text">Intel unveils new 10th gen processor</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">Click here to look at build</a>
+                      <a href="/exampleBuild" class="card-link">View Article</a>
                       </div>
                     </div>
 
                     <div class="card" >
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
-                        <h5 class="card-title">High End Build</h5>
-                        <p class="card-text">This build is a high end build</p>
+                        <h5 class="card-title">Memory News</h5>
+                        <p class="card-text">Experts show their take on SSDs</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">Click here to look at build</a>
+                      <a href="/exampleBuild" class="card-link">View Article</a>
+                      </div>
+                    </div>
+
+                    <div class="card" >
+                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
+                      <div class="card-body">
+                        <h5 class="card-title">PC Case News</h5>
+                        <p class="card-text">Top 10 Gaming Cases</p>
+                      </div>
+                      <div class="card-body">
+                      <a href="/exampleBuild" class="card-link">View Article</a>
                       </div>
                     </div>
                 </div>

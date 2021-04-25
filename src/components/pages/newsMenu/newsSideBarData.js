@@ -12,7 +12,7 @@ export const SideBarData = [
     },
     {
         title: 'Part Selection',
-        path: '/news',
+        path: null,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
