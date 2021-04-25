@@ -35,7 +35,7 @@ return (
                         <p class="card-text">This build is the budget build</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">Click here to look at build</a>
+                      <a href="/PC-MegaMind/#/exampleBuild" class="card-link">Click here to look at build</a>
                       </div>
                     </div>
 
@@ -46,7 +46,7 @@ return (
                         <p class="card-text">This build is the office build</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">Click here to look at build</a>
+                      <a href="/PC-MegaMind/#/exampleBuild" class="card-link">Click here to look at build</a>
                       </div>
                     </div>
 
@@ -57,7 +57,7 @@ return (
                         <p class="card-text">This build is the gaming build</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">Click here to look at build</a>
+                      <a href="/PC-MegaMind/#/exampleBuild" class="card-link">Click here to look at build</a>
                       </div>
                     </div>
 
@@ -68,7 +68,7 @@ return (
                         <p class="card-text">This build is a high end build</p>
                       </div>
                       <div class="card-body">
-                      <a href="/exampleBuild" class="card-link">Click here to look at build</a>
+                      <a href="/PC-MegaMind/#/exampleBuild" class="card-link">Click here to look at build</a>
                       </div>
                     </div>
                 </div>
