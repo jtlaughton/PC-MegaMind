@@ -9,7 +9,7 @@ function navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-custom">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/PC-MegaMind">
             <img src={pic1} width="30" height="30" class="d-inline-block align-top" alt="" />
             PC MegaMind
         </a>
@@ -18,7 +18,7 @@ function navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="/PC-MegaMind">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="/buildersGuide">Builders Guide</a>
             <a class="nav-item nav-link" href="/news">News</a>
             <a class="nav-item nav-link" href="/shop">Shop</a>
