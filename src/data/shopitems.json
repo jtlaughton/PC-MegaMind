@@ -5,75 +5,90 @@
             "price": 400,
             "imageSrc": "3060",
             "type": "gpu",
-            "brand": "Nvidia"
-
+            "brand": "Nvidia",
+            "id": 0,
+            "quant": 0
         },
         {
             "itemName": "AMD 5700X",
             "price": 500,
             "imageSrc": "5700x",
             "type": "cpu",
-            "brand": "AMD"
+            "brand": "AMD",
+            "id": 100,
+            "quant": 0
         },
         {
-            "itemName": "RTX 3060",
-            "price": 400,
-            "imageSrc": "3060",
-            "type": "gpu",
-            "brand": "Nvidia"
-
+            "itemName": "Memory",
+            "price": 100,
+            "imageSrc": "memory",
+            "type": "memory",
+            "brand": "GSkill",
+            "id": 200,
+            "quant": 0
         },
         {
-            "itemName": "AMD 5700X",
-            "price": 500,
-            "imageSrc": "5700x",
-            "type": "cpu",
-            "brand": "AMD"
+            "itemName": "Motherboard",
+            "price": 200,
+            "imageSrc": "motherboard",
+            "type": "motherboard",
+            "brand": "Asus",
+            "id": 300,
+            "quant": 0
         },
         {
-            "itemName": "RTX 3060",
-            "price": 400,
-            "imageSrc": "3060",
-            "type": "gpu",
-            "brand": "Nvidia"
-
+            "itemName": "Case",
+            "price": 50,
+            "imageSrc": "case",
+            "type": "case",
+            "brand": "Cooler Master",
+            "id": 400,
+            "quant": 0
         },
         {
-            "itemName": "AMD 5700X",
-            "price": 500,
-            "imageSrc": "5700x",
-            "type": "cpu",
-            "brand": "AMD"
+            "itemName": "Cooler",
+            "price": 100,
+            "imageSrc": "cooler",
+            "type": "cooler",
+            "brand": "Noctua",
+            "id": 500,
+            "quant": 0
         },
         {
-            "itemName": "RTX 3060",
-            "price": 400,
-            "imageSrc": "3060",
-            "type": "gpu",
-            "brand": "Nvidia"
-
+            "itemName": "Optical Drive",
+            "price": 50,
+            "imageSrc": "optical-drive",
+            "type": "optical",
+            "brand": "LG",
+            "id": 600,
+            "quant": 0
         },
         {
-            "itemName": "AMD 5700X",
-            "price": 500,
-            "imageSrc": "5700x",
-            "type": "cpu",
-            "brand": "AMD"
+            "itemName": "Hard Drive",
+            "price": 50,
+            "imageSrc": "storage",
+            "type": "storage",
+            "brand": "Western Digital",
+            "id": 700,
+            "quant": 0
         },
         {
-            "itemName": "RTX 3060",
-            "price": 400,
-            "imageSrc": "3060",
-            "type": "gpu",
-            "brand": "Nvidia"
-
+            "itemName": "Windows",
+            "price": 100,
+            "imageSrc": "operating-system",
+            "type": "operating-system",
+            "brand": "Windows",
+            "id": 700,
+            "quant": 0
         },
         {
-            "itemName": "AMD 5700X",
-            "price": 500,
-            "imageSrc": "5700x",
-            "type": "cpu",
-            "brand": "AMD"
+            "itemName": "Nox 650w ATX",
+            "price": 100,
+            "imageSrc": "power-supply",
+            "type": "power-supply",
+            "brand": "Nox",
+            "id": 700,
+            "quant": 0
         }
     ]
 }

@@ -45,60 +45,74 @@ import opticalDrive_shop from './components/pages/shop/opticalDrive/opticalDrive
 import powerSupply_shop from './components/pages/shop/powerSupply/powerSupply';
 import storage_shop from './components/pages/shop/storage/storage';
 import videoCard_shop from './components/pages/shop/videoCard/videoCard';
-import cart_shop from './components/pages/shop/cartPage'
+import cart from './components/pages/shop/cartPage'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+toast.configure();
 
-function App() {
-  return (
-    <HashRouter>
-      <Navbar />
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/buildersGuide' component={BuildersGuide} />
-        <Route path='/PC-MegaMind' component={Home} />
-        <Route path='/news' component={News} />
-        <Route path='/shop' component={Shop} />
-        <Route path='/suggestedBuilds' component={SuggestedBuilds} />
-        <Route path='/cpu_buildersGuide' component={cpu_buildersGuide} />
-        <Route path='/case_buildersGuide' component={Case_buildersGuide} />
-        <Route path='/cpuCooler_buildersGuide' component={cpuCooler_buildersGuide} />
-        <Route path='/memory_buildersGuide' component={memory_buildersGuide} />
-        <Route path='/motherboard_buildersGuide' component={motherboard_buildersGuide} />
-        <Route path='/operatingSystem_buildersGuide' component={operatingSystem_buildersGuide} />
-        <Route path='/opticalDrive_buildersGuide' component={opticalDrive_buildersGuide} />
-        <Route path='/powerSupply_buildersGuide' component={powerSupply_buildersGuide} />
-        <Route path='/storage_buildersGuide' component={storage_buildersGuide} />
-        <Route path='/videoCard_buildersGuide' component={videoCard_buildersGuide} />
-        <Route path='/exampleBuild' component={exampleBuild_buildersGuide} />
-        <Route path='/newsExample' component={newsExample} />
-        <Route path='/cart_example' component={cart_example} />
+class App extends React.Component {
+  constructor(){
+    super();
+  }
 
-        <Route path='/cpu_news' component={cpu_news} />
-        <Route path='/case_news' component={Case_news} />
-        <Route path='/cpuCooler_news' component={cpuCooler_news} />
-        <Route path='/memory_news' component={memory_news} />
-        <Route path='/motherboard_news' component={motherboard_news} />
-        <Route path='/operatingSystem_news' component={operatingSystem_news} />
-        <Route path='/opticalDrive_news' component={opticalDrive_news} />
-        <Route path='/powerSupply_news' component={powerSupply_news} />
-        <Route path='/storage_news' component={storage_news} />
-        <Route path='/videoCard_news' component={videoCard_news} />
+  static toastNotify(){
+    toast.dark('1 item has been added to cart!',{autoClose:2000});
+  }
+ 
 
-        <Route path='/cpu_shop' component={cpu_shop} />
-        <Route path='/case_shop' component={Case_shop} />
-        <Route path='/cpuCooler_shop' component={cpuCooler_shop} />
-        <Route path='/memory_shop' component={memory_shop} />
-        <Route path='/motherboard_shop' component={motherboard_shop} />
-        <Route path='/operatingSystem_shop' component={operatingSystem_shop} />
-        <Route path='/opticalDrive_shop' component={opticalDrive_shop} />
-        <Route path='/powerSupply_shop' component={powerSupply_shop} />
-        <Route path='/storage_shop' component={storage_shop} />
-        <Route path='/videoCard_shop' component={videoCard_shop} />
-        <Route path='/cart_shop' component={cart_shop}/>
-
-      </Switch>
-    </HashRouter>
-  );
+  render(){
+    return (
+      <HashRouter>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/buildersGuide' component={BuildersGuide} />
+          <Route path='/PC-MegaMind' component={Home} />
+          <Route path='/news' component={News} />
+          <Route path='/shop' component={Shop} />
+          <Route path='/suggestedBuilds' component={SuggestedBuilds} />
+          <Route path='/cpu_buildersGuide' component={cpu_buildersGuide} />
+          <Route path='/case_buildersGuide' component={Case_buildersGuide} />
+          <Route path='/cpuCooler_buildersGuide' component={cpuCooler_buildersGuide} />
+          <Route path='/memory_buildersGuide' component={memory_buildersGuide} />
+          <Route path='/motherboard_buildersGuide' component={motherboard_buildersGuide} />
+          <Route path='/operatingSystem_buildersGuide' component={operatingSystem_buildersGuide} />
+          <Route path='/opticalDrive_buildersGuide' component={opticalDrive_buildersGuide} />
+          <Route path='/powerSupply_buildersGuide' component={powerSupply_buildersGuide} />
+          <Route path='/storage_buildersGuide' component={storage_buildersGuide} />
+          <Route path='/videoCard_buildersGuide' component={videoCard_buildersGuide} />
+          <Route path='/exampleBuild' component={exampleBuild_buildersGuide} />
+          <Route path='/newsExample' component={newsExample} />
+          <Route path='/cart_example' component={cart_example} />
+  
+          <Route path='/cpu_news' component={cpu_news} />
+          <Route path='/case_news' component={Case_news} />
+          <Route path='/cpuCooler_news' component={cpuCooler_news} />
+          <Route path='/memory_news' component={memory_news} />
+          <Route path='/motherboard_news' component={motherboard_news} />
+          <Route path='/operatingSystem_news' component={operatingSystem_news} />
+          <Route path='/opticalDrive_news' component={opticalDrive_news} />
+          <Route path='/powerSupply_news' component={powerSupply_news} />
+          <Route path='/storage_news' component={storage_news} />
+          <Route path='/videoCard_news' component={videoCard_news} />
+  
+          <Route path='/cpu_shop' component={cpu_shop} />
+          <Route path='/case_shop' component={Case_shop} />
+          <Route path='/cpuCooler_shop' component={cpuCooler_shop} />
+          <Route path='/memory_shop' component={memory_shop} />
+          <Route path='/motherboard_shop' component={motherboard_shop} />
+          <Route path='/operatingSystem_shop' component={operatingSystem_shop} />
+          <Route path='/opticalDrive_shop' component={opticalDrive_shop} />
+          <Route path='/powerSupply_shop' component={powerSupply_shop} />
+          <Route path='/storage_shop' component={storage_shop} />
+          <Route path='/videoCard_shop' component={videoCard_shop} />
+          <Route path='/cart' component={cart}/>
+  
+        </Switch>
+      </HashRouter>
+    );
+  }
 }
 
 export default App;

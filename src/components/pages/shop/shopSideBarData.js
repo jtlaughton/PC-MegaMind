@@ -15,43 +15,43 @@ export const SideBarData = [
         subNav: [
             {
                 title: 'CPU',
-                path: '/shop',
+                path: '/cpu_shop',
             },
             {
                 title: 'CPU Cooler',
-                path: '/shop',
+                path: '/cpuCooler_shop',
             },
             {
                 title: 'Motherboard',
-                path: '/shop',
+                path: '/motherboard_shop',
             },
             {
                 title: 'Memory',
-                path: '/shop',
+                path: '/memory_shop',
             },
             {
                 title: 'Storage',
-                path: '/shop',
+                path: '/storage_shop',
             },
             {
                 title: 'Video Card',
-                path: '/shop',
+                path: '/videoCard_shop',
             },
             {
                 title: 'Case',
-                path: '/shop',
+                path: '/case_shop',
             },
             {
                 title: 'Power Supply',
-                path: '/shop',
+                path: '/powerSupply_shop',
             },
             {
                 title: 'Operating System',
-                path: '/shop',
+                path: '/operatingSystem_shop',
             },
             {
                 title: 'Optical Drive',
-                path: '/shop',
+                path: '/opticalDrive_shop',
             },
         ]
     }

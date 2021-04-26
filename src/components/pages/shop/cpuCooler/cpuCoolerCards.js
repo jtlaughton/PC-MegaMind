@@ -1,10 +1,9 @@
 import React from 'react';
-import CardItem from './shopCardItems';
-import './shopCards.css';
+import CardItem from '../shopCardItems';
+import '../shopCards.css';
 import styled from 'styled-components';
-import jsonFile from '../../../data/shopitems.json';
-import FilterButton from './filterButton';
-import Cart from './cart';
+import jsonFile from '../../../../data/shopitems.json';
+import FilterButton from '../filterButton';
 
 const FilterBoxDiv = styled.div`
     display: flex;
@@ -22,9 +21,17 @@ class Cards extends React.Component {
     constructor(props) {
         super(props);
 
+        var temp = [];
+
+        jsonFile.items.forEach((e) => {
+            if(e.type === 'cooler'){
+                temp.push(e)
+            }
+        })
+
         this.state = {
-            all_data: jsonFile.items,
-            cur_data: jsonFile.items,
+            all_data: temp,
+            cur_data: temp,
         };
     }
 

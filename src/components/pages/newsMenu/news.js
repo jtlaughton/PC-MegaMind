@@ -7,7 +7,12 @@ import Col from 'react-bootstrap/Col';
 import {Link} from 'react-router-dom';
 import Cards from '../../../cards';
 import SideBar from './newsSideBar';
-import pic1 from '../../../Images/img-1.jpg';
+import pic1 from '../../../Images/gpu.jpg';
+import pic2 from '../../../Images/cpu.jpg';
+import pic3 from '../../../Images/memory.jpg';
+import pic4 from '../../../Images/case.jpg';
+
+
 
 export default function news() {
 return (
@@ -39,7 +44,7 @@ return (
                     </div>
 
                     <div class="card" >
-                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
+                      <img class="card-img-top" src={pic2} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">CPU News</h5>
                         <p class="card-text">Intel unveils new 10th gen processor</p>
@@ -50,7 +55,7 @@ return (
                     </div>
 
                     <div class="card" >
-                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
+                      <img class="card-img-top" src={pic3} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">Memory News</h5>
                         <p class="card-text">Experts show their take on SSDs</p>
@@ -61,7 +66,7 @@ return (
                     </div>
 
                     <div class="card" >
-                      <img class="card-img-top" src={pic1} alt="Card image cap"/>
+                      <img class="card-img-top" src={pic4} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">PC Case News</h5>
                         <p class="card-text">Top 10 Gaming Cases</p>

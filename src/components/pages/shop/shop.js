@@ -22,14 +22,6 @@ return (
         </Col>
         <Col xs sm md lg xl={{ span: 9, offset: 0}}>
           <h1 >Select Your Parts Here</h1>
-          <Row className="sidebar_row" xs sm md lg xl={1}>
-            <Col xs sm md lg xl={{ span: 2, offset: 0}}>
-              <Link to="/cart_shop" class='cart-link'>
-                    <span ><Cart/></span>
-              </Link>
-            </Col>
-          </Row>
-
           <Row className="sidebar_row" xs sm md lg xl={1} id = "filterRoot">
             <Cards/>
           </Row>

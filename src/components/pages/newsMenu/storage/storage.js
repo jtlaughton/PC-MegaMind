@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import {Link} from 'react-router-dom';
 import Cards from '../../../../cards';
 import SideBar from '../newsSideBar';
-import pic1 from '../../../../Images/img-1.jpg';
+import pic1 from '../../../../Images/storage.jpg';
 
 function storage() {
     return (

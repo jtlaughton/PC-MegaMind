@@ -20,9 +20,8 @@ export default function newsExample() {
       </Col>
       <Col xs sm md lg xl={{ span: 8, offset: 0}}>
         <div>
-          <h1 >Example News Article</h1>
-          <p>Read about the most recent news in computing</p>
-
+          <h1 >Example News Article Webpage</h1>
+          <p> This an example page for articles. The article link you press actually takes you to the website of the article. </p>
           </div>
 
       </Col>

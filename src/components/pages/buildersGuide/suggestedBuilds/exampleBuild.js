@@ -12,6 +12,7 @@ import pic2 from '../../../../Images/img-2.jpg';
 import pic3 from '../../../../Images/img-3.jpg';
 import Button from 'react-bootstrap/Button'
 import Slider from "react-slick";
+import CardItem from './suggestedCardItems';
 
 
 
@@ -32,22 +33,20 @@ return (
         <SideBar/>
       </Col>
       <Col xs sm md lg xl={{ span: 8, offset: 0}}>
-        <h1 >Example PC Build</h1>
+        <h1 >Default PC Build</h1>
         <Row className="sidebar_row" xs sm md lg xl={1}>
 
-          <Link to="/suggestedBuilds">
-            <Button variant="dark">Back</Button>{' '}
-          </Link>
+          <Col xs sm md lg xl={{ span: 1, offset: 0}}>
+            <Link to="/suggestedBuilds">
+              <Button variant="dark">Back</Button>{' '}
+            </Link>
+          </Col>
 
-          <Link to="/cart_example"> 
-            <div className ='cartClass'>
-               <Cart/>
-            </div>
-          </Link>
-
-          <Link to="/cart_example">
-            <Button variant="dark">Add All To Cart</Button>{' '}
-          </Link>
+          <Col xs sm md lg xl={{ span: 1, offset: 10}}>
+            <Link to="/cart_example">
+              <Button variant="dark" id="AddCartButton">Add All To Cart</Button>{' '}
+            </Link>
+          </Col>
 
         </Row>
 
@@ -66,116 +65,132 @@ return (
 
              <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">CPU</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                  itemName: "AMD Ryzen 7 5700x",
+                  price: 400,
+                  imageSrc: '5700x',
+                  type: "CPU",
+                  brand: "Nvidia",
+                  id: 10000,
+                  quant: 0
+                }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">CPU Cooler</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                    itemName: "Corsair H110i",
+                    price: 400,
+                    imageSrc: 'cooler',
+                    type: "CPU Cooler",
+                    brand: "Corsair",
+                    id: 10100,
+                    quant: 0
+                  }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Motherboard</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                      itemName: "Asus Z490-A",
+                      price: 400,
+                      imageSrc: 'motherboard',
+                      type: "Motherboard",
+                      brand: "Asus",
+                      id: 10200,
+                      quant: 0
+                    }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Memory</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                      itemName: "16gb DDR4 RAM",
+                      price: 400,
+                      imageSrc: 'memory',
+                      type: "Memory",
+                      brand: "Corsair",
+                      id: 10300,
+                      quant: 0
+                    }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Storage</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                        itemName: "2 TB SSD",
+                        price: 400,
+                        imageSrc: 'storage',
+                        type: "Storage",
+                        brand: "WesternDigital",
+                        id: 10400,
+                        quant: 0
+                      }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Video Card</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                        itemName: "RTX 3060",
+                        price: 400,
+                        imageSrc: '3060',
+                        type: "GPU",
+                        brand: "Nvidia",
+                        id: 10500,
+                        quant: 0
+                      }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Case</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                        itemName: "NZXT Case",
+                        price: 400,
+                        imageSrc: 'case',
+                        type: "Case",
+                        brand: "NZXT",
+                        id: 10600,
+                        quant: 0
+                      }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Power Supply</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                        itemName: "Nox 650W ATX",
+                        price: 100,
+                        imageSrc: 'power-supply',
+                        type: "Power Supply",
+                        brand: "Nox",
+                        id: 10700,
+                        quant: 0
+                      }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
               <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Operating System</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
+                <CardItem item = {{
+                        itemName: "Microsoft Windows 10",                        
+                        price: 80,
+                        imageSrc: 'operating-system',
+                        type: "Operating System",
+                        brand: "Windows",
+                        id: 10800,
+                        quant: 0
+                      }}/>
               </div>
             </div>
             <div className='sliderHeader1'>        
-              <div class="col mb-4">
-                <div class="card">
-                  <img class="card-img-top" src={pic1} alt="Card image cap"/>
-                  <div class="card-body">
-                    <h5 class="card-title">Optical Drive</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                </div>
-              </div>
+              <CardItem item = {{
+                        itemName: "LG BP60NB10",
+                        price: 100,
+                        imageSrc: 'optical-drive',
+                        type: "Optical Drive",
+                        brand: "LG",
+                        id: 10900,
+                        quant: 0
+                      }}/>
             </div>
-
-
 
             </Slider>
           </div>

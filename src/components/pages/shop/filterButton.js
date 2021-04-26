@@ -39,7 +39,8 @@ const FilterBoxDiv = styled.div`
     `;
 
 const DropDownDiv = styled.div`
-    height: 275px;
+    padding-top: 10px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     color: #3b3b3b;
@@ -91,16 +92,6 @@ const FilterButton = (props) => {
                                 <option value = "0">Price: Low to High</option>
                                 <option value = "1">Price: High to Low</option>
                                 <option value = "2">Name: Alphabetical</option>
-                                </Form.Control>
-                            </Form.Group>
-                            <Form.Group controlId="exampleForm.ControlSelect1"
-                                custom
-                                onChange = {props.updateBrand}>
-                                <Form.Label>Example select</Form.Label>
-                                <Form.Control as="select">
-                                <option value = "None">None</option>
-                                <option value = "AMD">AMD</option>
-                                <option value = "Nvidia">Nvidia</option>
                                 </Form.Control>
                             </Form.Group>
                             <Form>
