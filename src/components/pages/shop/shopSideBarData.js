@@ -6,7 +6,10 @@ import * as RiIcons from 'react-icons/ri';
 
 export const SideBarData = [
 
-
+    {
+        title: 'All Parts',
+        path: '/shop',
+    },
     {
         title: 'Part Selection',
         path: null,

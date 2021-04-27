@@ -13,6 +13,20 @@
   overflow: hidden;
 }
 
+.pages2 {
+  background-color: #F7E1DA;
+  /*background-size: cover;*/
+  height: 103vh;
+  overflow: hidden;
+}
+
+.pages3 {
+  background-color: #F7E1DA;
+  /*background-size: cover;*/
+  height: 122vh;
+  overflow: hidden;
+}
+
 .examplePages {
   background-color: #F7E1DA;
   /*background-size: cover;*/

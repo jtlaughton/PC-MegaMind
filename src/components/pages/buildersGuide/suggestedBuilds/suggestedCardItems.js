@@ -79,8 +79,9 @@ function CardItem(props) {
       <img class="card-img-top" src={tempSrc} alt="Card image cap" />
       <div class="card-body">
         <h5 class="card-title">{props.item.itemName}</h5>
+        <h6 class="card-subtitle mb-2">Price: ${props.item.price}</h6>
         <p class="card-text">{props.item.type}</p>
-      
+      </div>
       <Button onClick={() => {
         setCount(count + 1);
 
@@ -89,7 +90,7 @@ function CardItem(props) {
         var tmp = getStoredItems();
         var tmp_index = tmp.findIndex((e) => e.id === props.item.id);
         var the_item = props.item;
-
+        
         if (tmp_index === -1 && count < 1) {
             var new_obj = {
               itemName: the_item.itemName,
@@ -142,7 +143,7 @@ function CardItem(props) {
         }
 
         App.toastNotify();
-      }}>Add To Cart</Button></div>
+      }}>Add To Cart</Button>
     </div>
   );
 }

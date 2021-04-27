@@ -34,18 +34,12 @@ return (
         <SideBar/>
       </Col>
       <Col xs sm md lg xl={{ span: 8, offset: 0}}>
-        <h1 >Default PC Build</h1>
+        <h1 >Sample PC Build</h1>
         <Row className="sidebar_row" xs sm md lg xl={1}>
 
           <Col xs sm md lg xl={{ span: 1, offset: 0}}>
             <Link to="/suggestedBuilds">
               <Button variant="dark">Back</Button>{' '}
-            </Link>
-          </Col>
-
-          <Col xs sm md lg xl={{ span: 1, offset: 10}}>
-            <Link to="/cart_example">
-              <Button variant="dark" id="AddCartButton">Add All To Cart</Button>{' '}
             </Link>
           </Col>
 

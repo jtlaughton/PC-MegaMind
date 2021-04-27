@@ -16,7 +16,8 @@ const SideBarDiv = styled.div`
     width: 150px;
     height: 60px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
+    text-align: center;
     outline: 5px solid grey;
 
     &:hover{

@@ -29,7 +29,7 @@ const SideBarNav = styled.nav`
     display: flex;
     justify-content: center;
     position: relative;
-    height: 100vh;
+    height: 122vh;
     top: 0;
     transition: 350ms;
     z-index: 10;

@@ -19,6 +19,7 @@ const PageDiv = styled.div`
     flex-direction: row;
     width: 100%;
     align-items: center;
+    padding: 20px;
 `;
 
 const WrapperDiv = styled.div`

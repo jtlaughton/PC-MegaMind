@@ -14,7 +14,7 @@ var Elem;
 export default function shop() {
 return (
   <>
-    <div className='pages'>
+    <div className='pages3'>
     <Container className='sidebar_BG' fluid='md'>
       <Row className="sidebar_row" xs sm md lg xl={1}>
         <Col xs sm md lg xl={{ span: 2, offset: 0}}>

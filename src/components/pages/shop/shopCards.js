@@ -49,12 +49,6 @@ class Cards extends React.Component {
                                     }
                                 }
                                 
-                                updateBrand = {
-                                    e => {
-                                        this.filterBrand(e.target.value)
-                                    }
-                                }
-                                
                                 updatePrice = {
                                         e => {
                                             var elem_high = document.getElementById("input_high");
@@ -83,6 +77,10 @@ class Cards extends React.Component {
 
     filterRange(low, high){
         var new_data = [];
+
+        if(low !== 0 && high ===''){
+            high = 9999999;
+        }
 
         this.state.all_data.forEach(elem => {
             if(elem.price <= high && elem.price >= low){
@@ -134,7 +132,7 @@ class Cards extends React.Component {
 
         new_data = this.state.cur_data;
 
-        new_data.sort((a, b) => (a.itemName > b.itemName) ? 1 : -1);
+        new_data.sort((a, b) => (a.price > b.price) ? 1 : -1);
 
         this.setState({
             cur_data: new_data
@@ -146,7 +144,7 @@ class Cards extends React.Component {
 
         new_data = this.state.cur_data;
 
-        new_data.sort((a, b) => (a.itemName < b.itemName) ? 1 : -1);
+        new_data.sort((a, b) => (a.price < b.price) ? 1 : -1);
 
         this.setState({
             cur_data: new_data

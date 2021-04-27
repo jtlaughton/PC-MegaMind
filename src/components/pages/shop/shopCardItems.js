@@ -78,7 +78,7 @@ function CardItem(props) {
       <img class="card-img-top" src={tempSrc} alt="Card image cap" />
       <div class="card-body">
         <h5 class="card-title">{props.item.itemName}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Price: {props.item.price}</h6>
+        <h6 class="card-subtitle mb-2">Price: ${props.item.price}</h6>
         <p class="card-text">{props.item.type}</p>
       </div>
       <Button onClick={() => {
