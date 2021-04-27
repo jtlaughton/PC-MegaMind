@@ -27,6 +27,13 @@
   overflow: hidden;
 }
 
+.pages4 {
+  background-color: #F7E1DA;
+  /*background-size: cover;*/
+  height: 150vh;
+  overflow: hidden;
+}
+
 .examplePages {
   background-color: #F7E1DA;
   /*background-size: cover;*/

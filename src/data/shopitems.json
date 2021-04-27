@@ -69,7 +69,7 @@
             "imageSrc": "storage",
             "type": "storage",
             "brand": "Western Digital",
-            "id": 700,
+            "id": 800,
             "quant": 0
         },
         {
@@ -78,7 +78,7 @@
             "imageSrc": "operating-system",
             "type": "operating-system",
             "brand": "Windows",
-            "id": 700,
+            "id": 900,
             "quant": 0
         },
         {
@@ -87,7 +87,7 @@
             "imageSrc": "power-supply",
             "type": "power-supply",
             "brand": "Nox",
-            "id": 700,
+            "id": 1000,
             "quant": 0
         }
     ]

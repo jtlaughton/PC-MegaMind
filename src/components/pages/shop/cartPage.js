@@ -13,6 +13,7 @@ import pic6 from '../../../Images/cooler.jpg';
 import pic7 from '../../../Images/optical-drive.jpg';
 import pic8 from '../../../Images/storage.jpg';
 import pic9 from '../../../Images/operating-system.jpg';
+import pic10 from '../../../Images/power-supply.jpg';
 
 const PageDiv = styled.div`
     display: flex;
@@ -20,6 +21,7 @@ const PageDiv = styled.div`
     width: 100%;
     align-items: center;
     padding: 20px;
+    position: relative;
 `;
 
 const WrapperDiv = styled.div`
@@ -72,6 +74,9 @@ const TotalDiv = styled.div`
     border-radius: 25px;
     align-items: center;
     padding-left: 3rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 `;
 
 const DividerDiv = styled.div`
@@ -148,7 +153,7 @@ class CartPage extends React.Component {
 
         this.total = 0.0;
         new_items.forEach((e) => {
-            this.total += e.price;
+            this.total += e.quant * e.price;
         })
 
         this.setStoredItems({ items: new_items });
@@ -157,7 +162,7 @@ class CartPage extends React.Component {
         var final = this.total + tax;
 
         return (
-            <div className='pages'>
+            <div className='pages4'>
                 <PageDiv>
                 <WrapperDiv>
                     {
@@ -192,6 +197,8 @@ class CartPage extends React.Component {
                                 case 'operating-system':
                                     tempSrc = pic9;
                                     break;
+                                case 'power-supply':
+                                    tempSrc = pic10;
                             }
 
                             return (
@@ -201,7 +208,7 @@ class CartPage extends React.Component {
                                     </ImageDiv>
                                     <TextDiv>
                                         <h2>{item.itemName}</h2>
-                                        <p>Quantity: {item.quant}</p>
+                                        <p>Quantity: {item.quant}  |  Price: ${item.quant * item.price}</p>
                                     </TextDiv>
                                     <ButtonDiv>
                                         <Button onClick={() => {
