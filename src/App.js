@@ -34,7 +34,6 @@ import opticalDrive_news from './components/pages/newsMenu/opticalDrive/opticalD
 import powerSupply_news from './components/pages/newsMenu/powerSupply/powerSupply';
 import storage_news from './components/pages/newsMenu/storage/storage';
 import videoCard_news from './components/pages/newsMenu/videoCard/videoCard';
-
 import cpu_shop from './components/pages/shop/cpu/cpu';
 import Case_shop from './components/pages/shop/case/case';
 import cpuCooler_shop from './components/pages/shop/cpuCooler/cpuCooler';
@@ -57,7 +56,12 @@ class App extends React.Component {
   }
 
   static toastNotify(){
-    toast.dark('1 item has been added to cart!',{autoClose:2000});
+    toast.dark('1 item has been added to cart!',
+     {autoClose: 2000, 
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      progress: undefined,});
   }
  
 

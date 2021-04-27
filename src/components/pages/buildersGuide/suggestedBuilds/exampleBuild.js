@@ -16,6 +16,7 @@ import CardItem from './suggestedCardItems';
 
 
 
+
 export default function exampleBuild() {
   const settings = {
     dots: true,

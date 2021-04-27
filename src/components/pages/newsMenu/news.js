@@ -47,7 +47,7 @@ return (
                       <img class="card-img-top" src={pic2} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">CPU News</h5>
-                        <p class="card-text">Intel unveils new 10th gen processor</p>
+                        <p class="card-text">New AMD Ryzen CPU</p>
                       </div>
                       <div class="card-body">
                       <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>

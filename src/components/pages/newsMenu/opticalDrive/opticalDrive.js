@@ -30,7 +30,7 @@ function opticalDrive() {
                    <div class="card" >
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
-                        <h5 class="card-title">Optical Drive News Article Build</h5>
+                        <h5 class="card-title">Optical Drive News Article </h5>
                         <p class="card-text">New Blueray Optical Drive for 4k</p>
                       </div>
                       <div class="card-body">
@@ -64,7 +64,7 @@ function opticalDrive() {
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">Optical Drive News Article</h5>
-                        <p class="card-text">Should you use an external optical drive?</p>
+                        <p class="card-text">External optical drives useful?</p>
                       </div>
                       <div class="card-body">
                       <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>

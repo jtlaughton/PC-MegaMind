@@ -33,7 +33,7 @@ function Case() {
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">PC Case News Article </h5>
-                        <p class="card-text">Best cases for your PC</p>
+                        <p class="card-text">Best gaming cases for your PC in 2021</p>
                       </div>
                       <div class="card-body">
                       <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>

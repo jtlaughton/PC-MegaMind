@@ -64,7 +64,7 @@ function videoCard() {
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">Video Card News Article</h5>
-                        <p class="card-text">New Nvidia plans for 4000 series GPUs</p>
+                        <p class="card-text">New Nvidia plans for 4000 series </p>
                       </div>
                       <div class="card-body">
                       <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>

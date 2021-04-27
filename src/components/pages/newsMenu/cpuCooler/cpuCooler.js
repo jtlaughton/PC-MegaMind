@@ -53,7 +53,7 @@ function cpuCooler() {
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">CPU Cooler News Article</h5>
-                        <p class="card-text">Cooler Master better than water cooling?</p>
+                        <p class="card-text">Cooler Master have water cooling?</p>
                       </div>
                       <div class="card-body">
                       <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>

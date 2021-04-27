@@ -30,8 +30,8 @@ function operatingSystem() {
                    <div class="card" >
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
-                        <h5 class="card-title">Operating System News Article Build</h5>
-                        <p class="card-text">How is Linux safer than Windows?</p>
+                        <h5 class="card-title">Operating System News Article </h5>
+                        <p class="card-text">How is Linux safer than Microsoft Windows 2021?</p>
                       </div>
                       <div class="card-body">
                       <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>
@@ -64,7 +64,7 @@ function operatingSystem() {
                       <img class="card-img-top" src={pic1} alt="Card image cap"/>
                       <div class="card-body">
                         <h5 class="card-title">Operating System News Article</h5>
-                        <p class="card-text">Microsoft unveils Windows 20</p>
+                        <p class="card-text">Microsoft unveils the new Windows OS</p>
                       </div>
                       <div class="card-body">
                       <a href="/PC-MegaMind/#/newsExample" class="card-link">View Article</a>

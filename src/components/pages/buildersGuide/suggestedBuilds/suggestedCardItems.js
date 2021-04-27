@@ -14,6 +14,9 @@ import pic8 from '../../../../Images/storage.jpg';
 import pic9 from '../../../../Images/operating-system.jpg';
 import pic10 from '../../../../Images/power-supply.jpg';
 
+import App from '../../../../App';
+
+
 function getStoredItems(){
   var temp = window.localStorage.getItem('items');
   console.log(temp);
@@ -137,6 +140,8 @@ function CardItem(props) {
 
           setStoredItems({ items: tmp });
         }
+
+        App.toastNotify();
       }}>Add To Cart</Button></div>
     </div>
   );
